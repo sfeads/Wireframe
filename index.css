@@ -1,0 +1,173 @@
+*{
+    margin:0;
+}
+
+header{
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 75px; 
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+        }
+
+.google{
+   
+    width: 100px;
+    height: 30px;
+    justify-content: space-between;
+    margin: auto 10px;
+    background-color: #F23030;
+    
+}
+
+.drive{
+ 
+    width: 100px;
+    height: 30px;
+    justify-content: space-between;
+    margin: auto 10px;
+    background-color: #F29F05;
+}
+
+.gmail{
+
+    width: 100px;
+    height: 30px;
+    justify-content: space-between;
+    margin: auto 10px;
+    background-color: #03A63C;
+}
+
+.classroom{
+    
+    width: 100px;
+    height: 30px;
+    justify-content: space-between;
+    margin: auto 10px;
+    background-color: #056CF2;
+}
+
+.calendar{
+    
+    width: 100px;
+    height: 30px;
+    justify-content: space-between;
+    margin: auto 10px;
+    background-color: #4D4D4D;
+}
+
+header img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: center;
+   
+}
+
+.inicio{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+section{
+    width: 100%;
+    height:500px;
+    padding-top: 200px;
+    background-color: #DFDFDF;
+}
+
+h1{
+    font-size: 80px;
+    width: 450px;
+    height: 100px;
+    margin: auto;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    width: 500px;
+    height: 30px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+}
+
+.correo{
+    display:block;
+    width:140px;
+    height: 20px;
+    margin:auto;
+    background-color: #4D4D4D;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 15px; 
+}
+
+li a:link{
+ display:block;
+    width:100px;
+    height: 30px;
+    margin:auto;
+    text-decoration: none;
+    padding: 5px 5px 5px ;
+    margin-top: ; 
+    font-family: monospace;
+    color: white;
+    font-size: 17px;
+    
+}
+    
+.correo:link{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.correo:visited{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+li a:visited{
+ display:block;
+    width:100px;
+    height: 30px;
+    margin:auto;
+    text-decoration: none;
+    padding: 5px 5px 5px ;
+    margin-top: ; 
+    font-family: monospace;
+    color: white;
+    font-size: 17px;
+    
+}
+
+.sec div{
+
+    width: 200px;
+    height: 200px;
+justify-content: space-between;
+    margin: auto;
+}
+
+
+.sec{
+    width:auto;
+   height:300px;
+    display: flex;
+    flex-direction: row;
+}
